@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/*Header and navigation style*/
+.header {
+    background: #FFF8F3;
+    background-image: url('images/header_bg.png'), url('images/developer.png');
+    background-repeat: no-repeat;
+    background-position: bottom right, left;
+}
+
+.text-primary {
+    color: #FD6E0A;
+}
+
+.btn-primary {
+    color: #FFFFFF;
+    top: 50px;
+    background: #FD6E0A;
+    border-radius: 5px;
+    padding: 10px 10px;
+    border: 0;
+}
+
+
+
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 75px;
+}
+
+.nav-title {
+    font-weight: 800;
+    font-size: 45px;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+
+}
+
+nav li {
+    list-style: none;
+    margin-left: 15px;
+}
+
+/*banner styles*/
+
+.banner {
+    display: flex;
+    align-items: center;
+    margin: 0px 75px;
+}
+
+.banner-sub-title {
+    font-family: Open Sans;
+    /* font-size: 45px; */
+    /* font-weight: 300; */
+    /* line-height: 61px;
+    letter-spacing: 0em;
+    text-align: left; */
+
+}
+
+.banner-title {
+    font-family: Open Sans;
+    margin-bottom: 15px;
+    /* font-size:30px; */
+    /* font-weight: 400; */
+    /* line-height: 116px; */
+    /* letter-spacing: 0em; */
+    /* text-align: left; */
+
+}
+
+.banner-description {
+    font-family: Open Sans;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 30px;
+    /* line-height: 30px; */
+    /* letter-spacing: 0em; */
+    /* text-align: left; */
+    /* background: #757575; */
+
+}
+
+/*main section*/
+
+main {
+    margin: 0 auto;
+}
+
+/*About section styles*/
+
+.about {
+    margin-top: 100px;
+    background: #FFF8F3;
+    border-radius: 10px;
+    padding: 130px 150px 130px 150px;
+}
+
+.section-title {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.section-description {
+    color: #757575;
+    /* color: #757575; */
+    margin-bottom: 20px;
+
+
+}
+
+.about-info-container{
+    display:flex;
+    justify-content: space-between;
+}
+
+.info-title{
+    text-align: center;
+}
+
+.info-description{
+
+}
